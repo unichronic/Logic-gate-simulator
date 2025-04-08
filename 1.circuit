@@ -1,0 +1,111 @@
+{
+    "nodes": [
+        {
+            "id": "0d70e6f8-3e48-4c8d-9b4e-48af52ccc297",
+            "type": "WriteOutputNode",
+            "pos_x": 3073.0,
+            "pos_y": 2391.0
+        },
+        {
+            "id": "ff4e9ac8-709c-4303-b3c1-01f51a5ffd6f",
+            "type": "XorNode",
+            "pos_x": 2785.0,
+            "pos_y": 2381.0
+        },
+        {
+            "id": "126135b5-27b6-4784-bbbf-92e6b93bf869",
+            "type": "OrNode",
+            "pos_x": 2540.0,
+            "pos_y": 2277.0
+        },
+        {
+            "id": "13d6e2bf-64ed-4265-914a-0eadc57ce561",
+            "type": "XnorNode",
+            "pos_x": 2413.0,
+            "pos_y": 2485.0
+        },
+        {
+            "id": "810dfb3a-9a5c-4880-b2a1-67a8892b5cce",
+            "type": "InputNode",
+            "pos_x": 2220.0,
+            "pos_y": 2591.0,
+            "value": "0"
+        },
+        {
+            "id": "c62b989e-5cb2-4701-abd4-09cd1ffb8a59",
+            "type": "InputNode",
+            "pos_x": 1916.0,
+            "pos_y": 2197.0,
+            "value": "0"
+        },
+        {
+            "id": "3e7ea246-ec3e-4ff0-aa5a-059f012d05da",
+            "type": "AndNode",
+            "pos_x": 2244.0,
+            "pos_y": 2276.0
+        },
+        {
+            "id": "460fc1df-1681-4077-9e75-b350aceab7ce",
+            "type": "InputNode",
+            "pos_x": 1891.0,
+            "pos_y": 2447.0,
+            "value": "0"
+        }
+    ],
+    "connections": [
+        {
+            "source_node": "ff4e9ac8-709c-4303-b3c1-01f51a5ffd6f",
+            "source_socket": 0,
+            "dest_node": "0d70e6f8-3e48-4c8d-9b4e-48af52ccc297",
+            "dest_socket": 0
+        },
+        {
+            "source_node": "13d6e2bf-64ed-4265-914a-0eadc57ce561",
+            "source_socket": 0,
+            "dest_node": "ff4e9ac8-709c-4303-b3c1-01f51a5ffd6f",
+            "dest_socket": 0
+        },
+        {
+            "source_node": "126135b5-27b6-4784-bbbf-92e6b93bf869",
+            "source_socket": 0,
+            "dest_node": "ff4e9ac8-709c-4303-b3c1-01f51a5ffd6f",
+            "dest_socket": 1
+        },
+        {
+            "source_node": "13d6e2bf-64ed-4265-914a-0eadc57ce561",
+            "source_socket": 0,
+            "dest_node": "126135b5-27b6-4784-bbbf-92e6b93bf869",
+            "dest_socket": 0
+        },
+        {
+            "source_node": "3e7ea246-ec3e-4ff0-aa5a-059f012d05da",
+            "source_socket": 0,
+            "dest_node": "13d6e2bf-64ed-4265-914a-0eadc57ce561",
+            "dest_socket": 1
+        },
+        {
+            "source_node": "3e7ea246-ec3e-4ff0-aa5a-059f012d05da",
+            "source_socket": 0,
+            "dest_node": "126135b5-27b6-4784-bbbf-92e6b93bf869",
+            "dest_socket": 1
+        },
+        {
+            "source_node": "810dfb3a-9a5c-4880-b2a1-67a8892b5cce",
+            "source_socket": 0,
+            "dest_node": "13d6e2bf-64ed-4265-914a-0eadc57ce561",
+            "dest_socket": 0
+        },
+        {
+            "source_node": "c62b989e-5cb2-4701-abd4-09cd1ffb8a59",
+            "source_socket": 0,
+            "dest_node": "3e7ea246-ec3e-4ff0-aa5a-059f012d05da",
+            "dest_socket": 1
+        },
+        {
+            "source_node": "460fc1df-1681-4077-9e75-b350aceab7ce",
+            "source_socket": 0,
+            "dest_node": "3e7ea246-ec3e-4ff0-aa5a-059f012d05da",
+            "dest_socket": 0
+        }
+    ]
+}

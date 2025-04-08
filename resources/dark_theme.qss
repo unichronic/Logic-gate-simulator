@@ -1,0 +1,194 @@
+/* Dark Theme for Logic Gate Simulator */
+
+QMainWindow {
+    background-color: #2d2d2d;
+}
+
+QMenuBar {
+    background-color: #3c3c3c;
+    color: #dddddd;
+    border-bottom: 1px solid #222222;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 4px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #505050;
+    color: #ffffff;
+}
+
+QMenu {
+    background-color: #3c3c3c;
+    color: #dddddd;
+    border: 1px solid #222222;
+}
+
+QMenu::item {
+    padding: 5px 20px 5px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #505050;
+    color: #ffffff;
+}
+
+QDockWidget {
+    border: 1px solid #222222;
+    titlebar-close-icon: url(close.png);
+    titlebar-normal-icon: url(normal.png);
+    color: #dddddd;
+}
+
+QDockWidget::title {
+    text-align: center;
+    background-color: #3c3c3c;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #222222;
+}
+
+QListWidget {
+    background-color: #3c3c3c;
+    alternate-background-color: #444444;
+    color: #dddddd;
+    border: 1px solid #222222;
+}
+
+QListWidget::item {
+    padding: 5px;
+    border-bottom: 1px solid #222222;
+}
+
+QListWidget::item:selected {
+    background-color: #505050;
+    color: #ffffff;
+}
+
+QTabWidget::pane {
+    border: 1px solid #222222;
+    background-color: #3c3c3c;
+}
+
+QTabBar::tab {
+    background-color: #333333;
+    border: 1px solid #222222;
+    border-bottom-color: #222222;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 8ex;
+    padding: 6px 12px;
+    color: #dddddd;
+}
+
+QTabBar::tab:selected {
+    background-color: #3c3c3c;
+    border-bottom-color: #3c3c3c;
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px;
+}
+
+QGraphicsView {
+    background-color: #2d2d2d;
+    border: 1px solid #222222;
+}
+
+QPushButton {
+    background-color: #444444;
+    color: #dddddd;
+    border: 1px solid #222222;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #505050;
+    border: 1px solid #333333;
+}
+
+QPushButton:pressed {
+    background-color: #333333;
+    border: 1px solid #222222;
+}
+
+QLineEdit {
+    background-color: #444444;
+    color: #dddddd;
+    border: 1px solid #222222;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #5a5a5a;
+    background-color: #505050;
+}
+
+QScrollBar:vertical {
+    border: 1px solid #222222;
+    background-color: #333333;
+    width: 15px;
+    margin: 15px 0 15px 0;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #555555;
+    min-height: 20px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #666666;
+}
+
+QScrollBar::add-line:vertical {
+    border: 1px solid #222222;
+    background-color: #333333;
+    height: 15px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:vertical {
+    border: 1px solid #222222;
+    background-color: #333333;
+    height: 15px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar:horizontal {
+    border: 1px solid #222222;
+    background-color: #333333;
+    height: 15px;
+    margin: 0 15px 0 15px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #555555;
+    min-width: 20px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #666666;
+}
+
+QScrollBar::add-line:horizontal {
+    border: 1px solid #222222;
+    background-color: #333333;
+    width: 15px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: 1px solid #222222;
+    background-color: #333333;
+    width: 15px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+} 

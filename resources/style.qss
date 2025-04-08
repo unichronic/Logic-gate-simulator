@@ -1,0 +1,128 @@
+/* Default style for Logic Gate Simulator */
+
+QMainWindow {
+    background-color: #f0f0f0;
+}
+
+QMenuBar {
+    background-color: #ffffff;
+    color: #333333;
+    border-bottom: 1px solid #dddddd;
+}
+
+QMenuBar::item {
+    background-color: transparent;
+    padding: 4px 10px;
+}
+
+QMenuBar::item:selected {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+QMenu {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #dddddd;
+}
+
+QMenu::item {
+    padding: 5px 20px 5px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+QDockWidget {
+    border: 1px solid #dddddd;
+    titlebar-close-icon: url(close.png);
+    titlebar-normal-icon: url(normal.png);
+}
+
+QDockWidget::title {
+    text-align: center;
+    background-color: #ffffff;
+    padding-left: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #dddddd;
+}
+
+QListWidget {
+    background-color: #ffffff;
+    alternate-background-color: #f5f5f5;
+    color: #333333;
+    border: 1px solid #dddddd;
+}
+
+QListWidget::item {
+    padding: 5px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+QListWidget::item:selected {
+    background-color: #e0e0e0;
+    color: #000000;
+}
+
+QTabWidget::pane {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+
+QTabBar::tab {
+    background-color: #f0f0f0;
+    border: 1px solid #dddddd;
+    border-bottom-color: #dddddd;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    min-width: 8ex;
+    padding: 6px 12px;
+}
+
+QTabBar::tab:selected {
+    background-color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+QTabBar::tab:!selected {
+    margin-top: 2px;
+}
+
+QGraphicsView {
+    background-color: #f8f8f8;
+    border: 1px solid #dddddd;
+}
+
+QPushButton {
+    background-color: #e0e0e0;
+    color: #333333;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #d0d0d0;
+    border: 1px solid #bbbbbb;
+}
+
+QPushButton:pressed {
+    background-color: #c0c0c0;
+    border: 1px solid #aaaaaa;
+}
+
+QLineEdit {
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #cccccc;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #aaaaaa;
+    background-color: #fafafa;
+} 
