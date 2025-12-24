@@ -1,4 +1,3 @@
-# Logic-gate-simulator
 # Logic Gate Simulator
 
 A GUI application for simulating basic logic gates using nodes.
